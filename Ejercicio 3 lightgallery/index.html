@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio lightgallery</title>
+    <link rel="stylesheet" href="lightGallery-master/dist/css/lightgallery.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+        <div id="lightgallery">
+                <a 
+                    href="img/foto01.jpeg">
+                    <img 
+                        src="img/foto01.jpeg" />
+                </a>
+                <a 
+                    href="img/foto02.jpeg">
+                    <img 
+                        src="img/foto02.jpeg" />
+                </a>
+                <a 
+                    href="img/foto03.jpeg">
+                    <img 
+                        src="img/foto03.jpeg" />
+                </a>
+                <a 
+                    href="img/foto04.jpeg">
+                    <img 
+                        src="img/foto04.jpeg" />
+                </a>
+                <a 
+                    href="img/foto05.jpeg">
+                    <img 
+                        src="img/foto05.jpeg" />
+                </a>
+                <a 
+                    href="img/foto06.jpeg">
+                    <img 
+                        src="img/foto06.jpeg" />
+                </a>
+                <a 
+                    href="img/foto07.jpeg">
+                    <img 
+                        src="img/foto07.jpeg" />
+                </a>
+                <a 
+                    href="img/foto08.jpeg">
+                    <img 
+                        src="img/foto08.jpeg" />
+                </a>
+                <a 
+                    href="img/foto09.jpeg">
+                    <img 
+                        src="img/foto09.jpeg" />
+                </a>
+              </div>
+
+        <!-- jQuery version must be >= 1.8.0; -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+        <!-- A jQuery plugin that adds cross-browser mouse wheel support. (Optional) -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+    
+        <script src="lightGallery-master/dist/js/lightgallery.min.js"></script>
+    
+        <!-- lightgallery plugins -->
+        <script src="lightGallery-master/modules/lg-thumbnail.min.js"></script>
+        <script src="lightGallery-master/modules/lg-fullscreen.min.js"></script>
+        <!-- <script>
+require(['./lightgallery.js'], function() {
+    require(["./lg-zoom.js", "./lg-thumbnail.js"], function(){
+        $("#lightgallery").lightGallery(); 
+        });
+}); -->
+</script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#lightgallery").lightGallery(); 
+    });
+</script>
+
+</script>
+</body>
+</html>

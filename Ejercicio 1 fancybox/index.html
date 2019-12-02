@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ejemplo FancyBox</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      type="text/javascript"
+      src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="fancybox-2.1.7/source/jquery.fancybox.css"
+      type="text/css"
+      media="screen"
+    />
+    <script
+      type="text/javascript"
+      src="fancybox-2.1.7/source/jquery.fancybox.pack.js"
+    ></script>
+  </head>
+  <body>
+
+    <div class="divimagenes">
+
+      <a 
+        href="img/foto01.jpeg" 
+        class="fancybox" 
+        title="Foto 01"
+        rel="gallery"
+        >
+        <img 
+            src="img/foto01.jpeg" 
+            target="_blank" 
+      /></a>
+      <a 
+        href="img/foto02.jpeg" 
+        class="fancybox" 
+        title="Foto 02"
+        rel="gallery"
+        >
+        <img 
+            src="img/foto02.jpeg" 
+            target="_blank" 
+      /></a>
+      <a 
+        href="img/foto03.jpeg" 
+        class="fancybox" 
+        title="Foto 03"
+        rel="gallery"
+        >
+        <img 
+            src="img/foto03.jpeg" 
+            target="_blank" 
+      /></a>
+      <a 
+        href="img/foto04.jpeg" 
+        class="fancybox" 
+        title="Foto 04"
+        rel="gallery"
+        >
+        <img 
+            src="img/foto04.jpeg" 
+            target="_blank" 
+      /></a>
+      <a 
+        href="img/foto05.jpeg" 
+        class="fancybox" 
+        title="Foto 05"
+        rel="gallery"
+        >
+        <img 
+            src="img/foto05.jpeg" 
+            target="_blank" 
+      /></a>
+      <a 
+        href="img/foto06.jpeg" 
+        class="fancybox" 
+        title="Foto 06"
+        rel="gallery"
+        >
+        <img 
+            src="img/foto06.jpeg" 
+            target="_blank" 
+      /></a>
+      <a 
+        href="img/foto07.jpeg" 
+        class="fancybox" 
+        title="Foto 07"
+        rel="gallery"
+        >
+        <img 
+            src="img/foto07.jpeg" 
+            target="_blank" 
+      /></a>
+      <a 
+        href="img/foto08.jpeg" 
+        class="fancybox" 
+        title="Foto 08"
+        rel="gallery"
+        >
+        <img 
+            src="img/foto08.jpeg" 
+            target="_blank" 
+      /></a>
+      <a 
+        href="img/foto09.jpeg" 
+        class="fancybox" 
+        title="Foto 09"
+        rel="gallery"
+        >
+        <img 
+            src="img/foto09.jpeg" 
+            target="_blank" 
+      /></a>
+
+    </div>
+
+    <script>
+      $(document).ready(function() {
+        $(".fancybox").fancybox({
+            padding : 0,
+            openEffect  : 'elastic',
+            closeBtn: false
+        });
+      });
+    </script>
+  </body>
+</html>
